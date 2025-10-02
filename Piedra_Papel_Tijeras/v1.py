@@ -9,9 +9,9 @@ while Intentos < Intentos_max:
     Jugador1 = input("Que elije Jugador 1?, ¿Piedra, Papel o Tijeras?: ").lower()
     Jugador2 = input("Que elije Jugador 2?, ¿Piedra, Papel o Tijeras?: ").lower()
 
-    Primer_caso = (Jugador1 == "Piedra" and Jugador2 == "Tijeras")
-    Segundo_caso = (Jugador1 == "Papel" and Jugador2 == "Piedra")
-    Tercer_caso = (Jugador1 == "Tijeras" and Jugador2 == "Papel")
+    Primer_caso = (Jugador1 == "piedra" and Jugador2 == "tijeras")
+    Segundo_caso = (Jugador1 == "papel" and Jugador2 == "piedra")
+    Tercer_caso = (Jugador1 == "tijeras" and Jugador2 == "papel")
 
     if Jugador1 == Jugador2:
         print("¡Hay un EMPATE!")
